@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             environment {
-                REPO_URL = "https://github.com/Vakram/Jenkins-Zero-To-Hero"
+                REPO_URL = "https://github.com/vasim0909/End-To-End-CICD-Pipeline"
                 BRANCH_NAME = "main"
             }
             steps {
