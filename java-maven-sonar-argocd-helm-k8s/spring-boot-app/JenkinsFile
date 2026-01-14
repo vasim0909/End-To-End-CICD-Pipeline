@@ -77,7 +77,7 @@ pipeline {
 
         stage('Update Deployment File') {
             environment {
-                GIT_REPO_NAME = "End-To-End-CICD"
+                GIT_REPO_NAME = "End-To-End-CICD-Pipeline"
                 GIT_USER_NAME = "vasim0909"
             }
             steps {
